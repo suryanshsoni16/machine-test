@@ -1,0 +1,102 @@
+img{
+    height:750px;
+    width:100%;
+}
+.navbar{
+    background-color: black;
+}
+#projects{
+    width:100%;
+    height:500px;
+    color:black;
+}
+
+#myInput {
+    background-position: 10px 12px; /* Position the search icon */
+    width: 100%;
+    font-size: 16px; 
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px; 
+  }
+  
+  #myTable {
+    border-collapse: collapse; 
+    width: 100%; 
+    border: 1px solid #ddd; 
+    font-size: 18px; 
+  }
+  
+  #myTable th, #myTable td {
+    text-align: left; 
+    padding: 12px; 
+  }
+  
+  #myTable tr {
+  
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #myTable tr.header, #myTable tr:hover {
+
+    background-color: #f1f1f1;
+  }
+
+
+
+
+
+
+
+
+
+h2{
+    margin-top: 50px;
+    font-size: 50px;
+
+ }
+
+ .blog{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 80px;
+ 
+ }
+ 
+ .details {
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+    height: 150px;
+    justify-content: space-between;
+    margin: 10px;
+    border: 3px solid #7C99AC;
+    border-radius: 15px;
+    background-color:#92A9BD;
+ }
+ .details :hover{
+    color: crimson;
+ }
+ .blog :hover {
+    cursor: pointer;
+    background-color: cadetblue;
+    border-radius: 45px;
+
+ 
+ }
+ .name{
+     color: black;
+     font-size: 20px;
+     text-transform: capitalize;
+ }
+ 
+ span {
+
+    width:100px;
+
+    color: #FFEFEF;
+    text-align: left;
+    padding: 10px 10px;
+ }
